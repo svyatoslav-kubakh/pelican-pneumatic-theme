@@ -31,7 +31,7 @@ Google Fonts, refer to [`pneumatic@v1.0`]._
   `AUTHORS_SAVE_AS`, `CATEGORY_SAVE_AS`, `CATEGORIES_SAVE_AS`, and
   `TAGS_SAVE_AS` should all be set to `''`.
 - [`pygments.css`] can be modified to change the code block colour scheme.
-- Some font and colour choices can be customized in [`pneumatic.scss`].
+- Some font and colour choices can be customized in [`pneumatic.css`].
 - CodeHilite line numbers should be enabled in Pelican's configuration file:
 
   ```python
@@ -89,6 +89,6 @@ Pneumatic is licensed under the [MIT License].
 
 [relevant icons]: https://github.com/iKevinY/iKevinY.github.io/tree/src/content/images/icons
 [`pygments.css`]: static/pygments.css
-[`pneumatic.scss`]: static/pneumatic.scss
+[`pneumatic.css`]: static/pneumatic.css
 
 [MIT License]: LICENSE
