@@ -15,6 +15,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [1.0.0] - 2017-06-19
 
-[2.1.0]: https://github.com/svyatoslav-kubakh/pelican-pneumatic-theme/releases/tag/v2.0...v2.1
-[2.0.0]: https://github.com/svyatoslav-kubakh/pelican-pneumatic-theme/releases/tag/v1.0...v2.0
+[2.1.0]: https://github.com/svyatoslav-kubakh/pelican-pneumatic-theme/compare/v2.0...v2.1
+[2.0.0]: https://github.com/svyatoslav-kubakh/pelican-pneumatic-theme/compare/v1.0...v2.0
 [1.0.0]: https://github.com/svyatoslav-kubakh/pelican-pneumatic-theme/releases/tag/v1.0
