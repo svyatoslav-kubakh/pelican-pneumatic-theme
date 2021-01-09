@@ -1,8 +1,10 @@
 # Pneumatic
 
+This theme is forked from [Pneumatic] theme by [Kevin Yap]
+
 Pneumatic is a minimalistic, responsive [Pelican] theme. The name was chosen
 because it's based on the [Skeleton] framework, and pelicans (like most birds)
-possess [skeletal pneumaticity]. See the theme in action at **[kevinyap.ca]**.
+possess [skeletal pneumaticity]. See the theme in action at **[kubakh.name]**.
 
 ![Pneumatic Screenshots](.github/screenshots.png?raw=true)
 
@@ -73,10 +75,12 @@ Pneumatic is licensed under the [MIT License].
 [Pelican]: http://getpelican.com
 [Skeleton]: http://getskeleton.com
 [skeletal pneumaticity]: http://en.wikipedia.org/wiki/Skeletal_pneumaticity
-[kevinyap.ca]: http://kevinyap.ca
+[kubakh.name]: https://kubakh.name
 
 [legacy IE compatibility scripts]: https://github.com/iKevinY/pneumatic/blob/be36413d72870eb182d3c75303922b1e6a5ccb25/templates/base.html#L47-L50
 [system font stack]: https://css-tricks.com/snippets/css/system-font-stack/
+[Kevin Yap]: https://kevinyap.ca/
+[Pneumatic]: https://github.com/iKevinY/pneumatic
 [`pneumatic@v1.0`]: https://github.com/iKevinY/pneumatic/tree/v1.0
 
 [Sass]: http://sass-lang.com
