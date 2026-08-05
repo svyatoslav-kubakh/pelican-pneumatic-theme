@@ -41,6 +41,18 @@
 	<script src="/theme/js/html5shiv.min.js"></script>
 	<script src="/theme/js/respond.min.js"></script>
 	<![endif]-->
+
+	{% if GOOGLE_ANALYTICS %}
+	<!-- Google Analytics GA4 -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id={{ GOOGLE_ANALYTICS }}"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', '{{ GOOGLE_ANALYTICS }}');
+	</script>
+	{% endif %}
 </head>
 
 <body>
@@ -76,18 +88,6 @@
 			<p>{{ FOOTER_TEXT }}</p>
 		</footer>
 	</div>
-
-	{% if GOOGLE_ANALYTICS %}
-	<!-- Google Analytics GA4 -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id={{ GOOGLE_ANALYTICS }}"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-
-		gtag('config', '{{ GOOGLE_ANALYTICS }}');
-	</script>
-	{% endif %}
 
 	{% if GAUGES_ID %}
 	<!-- Gauges -->
